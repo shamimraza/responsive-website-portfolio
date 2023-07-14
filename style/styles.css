@@ -267,8 +267,15 @@ responsive web side */
     }
     .footer-description {
         width: 100%;
+        text-align: center;
     }
     .banner{
         background-image: none;
+    }
+    .footer-heading{
+        padding: 0px;
+    }
+    .banner-img{
+        width: 400px;
     }
 }
