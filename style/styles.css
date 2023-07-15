@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 nav {
@@ -239,9 +240,6 @@ textarea {
 responsive web side */
 /* mobile responsive */
 
-.about,.none{
-    display: none;
-}
 
 @media screen and (max-width:576px) {
     .skill-container{
@@ -262,7 +260,7 @@ responsive web side */
         padding: 10px;
         justify-content: center;
     }
-    .footer-heading,.resume-container, nav,.banner {
+    .footer-heading,.resume-container, nav,.banner, .about-info-container {
         flex-direction: column;
     }
     .footer-description {
@@ -277,5 +275,13 @@ responsive web side */
     }
     .banner-img{
         width: 400px;
+    }
+    .section-description{
+        width: 100%;
+        text-align: center;
+    }
+    .about {
+        padding: 0px;
+        margin: 0px;
     }
 }
